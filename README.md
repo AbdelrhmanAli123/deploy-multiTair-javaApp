@@ -19,7 +19,8 @@
 - Rabbitmq
 # Project design
 #  
- <img src="https://github.com/AbdelrhmanAli123/deploy-three-tair-javaApp/assets/133269614/2bcd589c-74b4-434d-9b41-8a1279913bb5" width=700>
+![project1](https://github.com/AbdelrhmanAli123/deploy-three-tair-javaApp/assets/133269614/a7f813b6-9b72-423b-b41c-2f8224d92c33)
+
  
 # Project steps
 #
