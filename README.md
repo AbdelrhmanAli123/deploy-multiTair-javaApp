@@ -38,10 +38,10 @@
 - use the USER DATA option to configure the servers and install the services during the boot process
 
 ## Create hosted zone using route53
-- create a private hosted zone using route53
-- write the name that you want instead of using the private ip
+- create a private hosted zone using route53 to allow the traffic between the VMs using names, not IPs
+- write the name that you want instead of using the private IP, not the public IP
 - test the connection by using the command ping and use any name that you wrote
-- after writing the name of each server, write these names in the application.properties
+- after writing the name of each server, write these names in the application.properties 
 
 ## Create Load Balancer
 - first, you should create a target group
@@ -49,7 +49,7 @@
 - allow the health check on the path /login
 - create an application load balancer
 - attach the TG to LB and apply SSL certificate if you have one
-- if you have domain name use the domain name to map it to the LB URL
+- if you have a domain name use the domain name to map it to the LB URL
 
 ## build the artifact 
 - first clone the repo go to the src Dir
